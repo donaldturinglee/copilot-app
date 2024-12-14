@@ -1,11 +1,7 @@
-import {Text, View} from "react-native";
+import MainNavigator from "@/components/MainNavigator";
 
 export default function App() {
   return (
-      <View>
-          <Text>
-              Copilot
-          </Text>
-      </View>
+      <MainNavigator />
   );
 }
